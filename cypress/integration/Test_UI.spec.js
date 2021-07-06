@@ -30,7 +30,7 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
       });
   });
 
-  it("Testing  Calendar", () => {
+  it("Testing   Starting date", () => {
     cy.get("form")
       .find("tbody")
       .then((table) => {
@@ -56,11 +56,26 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
       .type("1:00")
       .invoke("prop", "value")
       .should("contain", "1:00");
+  });
+
+  it("Testing  Radio Button", () => {
     cy.get(
       "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=radio]:nth-child(4)"
-    ).check({ force: true });
+    )
+      .check({ force: true })
+      .wait(1000);
     cy.get(
       "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=radio]:nth-child(5)"
-    ).check({ force: true });
+    )
+      .check({ force: true })
+      .wait(1000);
+  });
+
+  it("Testing  Leaving Date", () => {
+    cy.get("#LeavingDate")
+      .clear()
+      .type("8/30/2020")
+      .invoke("prop", "value")
+      .should("contain", "8/30/2020");
   });
 });
