@@ -1,0 +1,22 @@
+{
+  "name": "parking_calculator",
+  "version": "1.0.0",
+  "description": "Front End testing parking lot web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedmon84/Automation-Engineer-Challenge-v2.git"
+  },
+  "author": "Hedmon@Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hedmon84/Automation-Engineer-Challenge-v2/issues"
+  },
+  "homepage": "https://github.com/hedmon84/Automation-Engineer-Challenge-v2#readme",
+  "dependencies": {
+    "cypress": "^7.6.0"
+  }
+}
