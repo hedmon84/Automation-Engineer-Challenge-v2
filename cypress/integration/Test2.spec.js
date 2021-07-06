@@ -6,6 +6,8 @@ import { OnLeaving_Date } from "../support/page_objects/Leaving_Date";
 import { OnLeaving_Time } from "../support/page_objects/Leaving_Time";
 import { onLeaving_RB_AMPM } from "../support/page_objects/Leaving_RB_AMPM";
 import { onSubmit_Form } from "../support/page_objects/Submit_Form";
+import { onCheck_Price } from "../support/page_objects/Check_Price";
+import { onCheck_Date } from "../support/page_objects/Check_Date";
 
 describe("Testing_Valet_Parking_Costs", () => {
   it("Open Application", () => {
@@ -41,5 +43,13 @@ describe("Testing_Valet_Parking_Costs", () => {
 
   it("Format Submit Test", () => {
     onSubmit_Form.Submit();
+  });
+
+  it("Check Correct Price Test", () => {
+    onCheck_Price.ShouldBe("$ 12.00");
+  });
+
+  it("Check Correct Date Test", () => {
+    onCheck_Date.CheckDate("(0 Days, 1 Hours, 0 Minutes)");
   });
 });
