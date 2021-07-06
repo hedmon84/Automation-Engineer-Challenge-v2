@@ -1,4 +1,4 @@
-export class Entry_AM_PM {
+export class Entry_RB_AMPM {
   pickPeriod(period) {
     if (period.toUpperCase() === "AM") {
       cy.get(
@@ -11,4 +11,4 @@ export class Entry_AM_PM {
     }
   }
 }
-export const onEntry_AM_PM = new Entry_AM_PM();
+export const onEntry_RB_AMPM = new Entry_RB_AMPM();

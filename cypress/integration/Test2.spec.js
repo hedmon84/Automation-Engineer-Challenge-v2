@@ -1,6 +1,9 @@
 import { onParkingLotPicker } from "../support/page_objects/Parking_Lot_Picker";
 import { onEntry_Date } from "../support/page_objects/Entry_Date";
-import { onEntry_AM_PM } from "../support/page_objects/Entry_AM_PM";
+import { onEntry_RB_AMPM } from "../support/page_objects/Entry_RB_AMPM";
+import { OnLeaving_Date } from "../support/page_objects/Leaving_Date";
+import { OnLeaving_Time } from "../support/page_objects/Leaving_Time";
+import { onLeaving_RB_AMPM } from "../support/page_objects/Leaving_RB_AMPM";
 
 describe("Testing_Valet_Parking_Costs", () => {
   it("Open Application", () => {
@@ -16,6 +19,6 @@ describe("Testing_Valet_Parking_Costs", () => {
   });
 
   it("Radio_Button-Test", () => {
-    onEntry_AM_PM.pickPeriod("PM");
+    onEntry_RB_AMPM.pickPeriod("PM");
   });
 });
