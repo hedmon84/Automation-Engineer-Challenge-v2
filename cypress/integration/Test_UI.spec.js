@@ -41,10 +41,10 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
           .then((date) => {
             cy.wrap(date)
               .clear()
-              .type("8/30/2020")
+              .type("8/30/2021")
               .invoke("prop", "value")
               .then((Value) => {
-                expect(Value).to.equal("8/30/2020");
+                expect(Value).to.equal("8/30/2021");
               });
           });
       });
@@ -74,8 +74,16 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
   it("Testing  Leaving Date", () => {
     cy.get("#LeavingDate")
       .clear()
-      .type("8/30/2020")
+      .type("8/30/2021")
       .invoke("prop", "value")
-      .should("contain", "8/30/2020");
+      .should("contain", "8/30/2021");
+  });
+
+  it("Testing  Leaving Time", () => {
+    cy.get("#LeavingTime")
+      .clear()
+      .type("2:00")
+      .invoke("prop", "value")
+      .should("contain", "2:00");
   });
 });
