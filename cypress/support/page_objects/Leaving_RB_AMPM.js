@@ -11,4 +11,4 @@ export class Leaving_RB_AMPM {
     }
   }
 }
-export const OnLeaving_RB_AMPM = new Leaving_RB_AMPM();
+export const onLeaving_RB_AMPM = new Leaving_RB_AMPM();
