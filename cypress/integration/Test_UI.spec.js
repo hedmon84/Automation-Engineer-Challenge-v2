@@ -30,7 +30,7 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
       });
   });
 
-  it("Testing  Calendar , time & radio buttons", () => {
+  it("Testing  Calendar", () => {
     cy.get("form")
       .find("tbody")
       .then((table) => {
@@ -48,5 +48,19 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
               });
           });
       });
+  });
+
+  it("Testing  Starting Time", () => {
+    cy.get("#StartingTime")
+      .clear()
+      .type("1:00")
+      .invoke("prop", "value")
+      .should("contain", "1:00");
+    cy.get(
+      "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=radio]:nth-child(4)"
+    ).check({ force: true });
+    cy.get(
+      "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=radio]:nth-child(5)"
+    ).check({ force: true });
   });
 });
