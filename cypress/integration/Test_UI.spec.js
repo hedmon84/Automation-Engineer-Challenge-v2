@@ -30,4 +30,24 @@ describe("Tests is only to check if calendar , dropdown, radiobutton works", () 
           .wait(1000);
       });
   });
+
+  it("Testing Input Calendar", () => {
+    cy.get("form")
+      .find("tbody")
+      .then((table) => {
+        cy.wrap(table)
+          .find("tr")
+          .eq(1)
+          .get("[name=StartingDate]")
+          .then((date) => {
+            cy.wrap(date)
+              .clear()
+              .type("8/30/2020")
+              .invoke("prop", "value")
+              .then((Value) => {
+                expect(Value).to.equal("8/30/2020");
+              });
+          });
+      });
+  });
 });
