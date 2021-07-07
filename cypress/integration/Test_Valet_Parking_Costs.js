@@ -9,7 +9,7 @@ import { onSubmit_Form } from "../support/page_objects/Submit_Form";
 import { onCheck_Price } from "../support/page_objects/Check_Price";
 import { onCheck_Date } from "../support/page_objects/Check_Date";
 
-describe("Testing_Valet_Parking_Costs", () => {
+describe("Testing  the Valet Parking cost per day has to be 18$", () => {
   it("Open Application", () => {
     cy.openMainPage();
   });
@@ -19,7 +19,7 @@ describe("Testing_Valet_Parking_Costs", () => {
   });
 
   it("Entry Date Test", () => {
-    onEntry_Date.pickDate("7/29/2020");
+    onEntry_Date.pickDate("7/29/2021");
   });
 
   it("Starting Time Test", () => {
@@ -30,7 +30,52 @@ describe("Testing_Valet_Parking_Costs", () => {
     onEntry_RB_AMPM.pickPeriod("PM");
   });
   it("Leaving Date Test", () => {
-    OnLeaving_Date.leaveDate("7/29/2020");
+    OnLeaving_Date.leaveDate("7/29/2021");
+  });
+
+  it("Leaving Time Test", () => {
+    OnLeaving_Time.leaveTime("9:00");
+  });
+
+  it("Leaving Time AM or PM Test", () => {
+    onLeaving_RB_AMPM.pickPeriod("PM");
+  });
+
+  it("Format Submit Test", () => {
+    onSubmit_Form.Submit();
+  });
+
+  it("Check Correct Price Test", () => {
+    onCheck_Price.ShouldBe("$ 18.00");
+  });
+
+  it("Check Correct Date Test", () => {
+    onCheck_Date.CheckDate("(0 Days, 9 Hours, 0 Minutes)");
+  });
+});
+
+describe("Testing  the Valet Parking  costs has to be $12 for five hours or less", () => {
+  it("Open Application", () => {
+    cy.openMainPage();
+  });
+
+  it("Parking Lot Test", () => {
+    onParkingLotPicker.pickLot("Valet Parking", "Valet Parking");
+  });
+
+  it("Entry Date Test", () => {
+    onEntry_Date.pickDate("7/29/2021");
+  });
+
+  it("Starting Time Test", () => {
+    OnEntry_Time.pickTime("12:00");
+  });
+
+  it("Radio_Button-Test", () => {
+    onEntry_RB_AMPM.pickPeriod("PM");
+  });
+  it("Leaving Date Test", () => {
+    OnLeaving_Date.leaveDate("7/29/2021");
   });
 
   it("Leaving Time Test", () => {
