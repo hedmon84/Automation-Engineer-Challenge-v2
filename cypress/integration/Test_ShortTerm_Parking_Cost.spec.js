@@ -117,14 +117,14 @@ describe("Testing  the Short-Term Parking cost should be $24.00 daily maximum", 
   });
 
   it("Radio_Button-Test", () => {
-    onEntry_RB_AMPM.pickPeriod("PM");
+    onEntry_RB_AMPM.pickPeriod("AM");
   });
   it("Leaving Date Test", () => {
     OnLeaving_Date.leaveDate("7/29/2021");
   });
 
   it("Leaving Time Test", () => {
-    OnLeaving_Time.leaveTime("1:30");
+    OnLeaving_Time.leaveTime("12:00");
   });
 
   it("Leaving Time AM or PM Test", () => {
@@ -136,10 +136,10 @@ describe("Testing  the Short-Term Parking cost should be $24.00 daily maximum", 
   });
 
   it("Check Correct Price Test", () => {
-    onCheck_Price.ShouldBe("$ 3.00");
+    onCheck_Price.ShouldBe("$ 24.00");
   });
 
   it("Check Correct Date Test", () => {
-    onCheck_Date.CheckDate("(0 Days, 1 Hours, 30 Minutes)");
+    onCheck_Date.CheckDate("(0 Days, 12 Hours, 0 Minutes)");
   });
 });
