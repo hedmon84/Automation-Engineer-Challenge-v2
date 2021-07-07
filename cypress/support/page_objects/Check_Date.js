@@ -6,6 +6,7 @@ export class Check_Date {
       const day = date.text().trim();
       expect(day).to.equal(data);
     });
+    cy.wait(1000);
   }
 }
 export const onCheck_Date = new Check_Date();

@@ -6,6 +6,7 @@ export class Check_Price {
       const value = price.text().trim();
       expect(value).to.equal(data);
     });
+    cy.wait(1000);
   }
 }
 export const onCheck_Price = new Check_Price();

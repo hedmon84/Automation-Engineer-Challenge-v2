@@ -9,6 +9,7 @@ export class Leaving_RB_AMPM {
         "body > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input[type=radio]:nth-child(5)"
       ).check({ force: true });
     }
+    cy.wait(1000);
   }
 }
 export const onLeaving_RB_AMPM = new Leaving_RB_AMPM();

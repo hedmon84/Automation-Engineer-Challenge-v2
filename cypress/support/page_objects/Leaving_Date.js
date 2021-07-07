@@ -5,6 +5,7 @@ export class Leaving_Date {
       .type(Date)
       .invoke("prop", "value")
       .should("contain", Date);
+      cy.wait(1000);
   }
 }
 export const OnLeaving_Date = new Leaving_Date();

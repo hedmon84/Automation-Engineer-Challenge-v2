@@ -5,6 +5,7 @@ export class Entry_Time {
       .type(Time)
       .invoke("prop", "value")
       .should("contain", Time);
+      cy.wait(1000);
   }
 }
 export const OnEntry_Time = new Entry_Time();
