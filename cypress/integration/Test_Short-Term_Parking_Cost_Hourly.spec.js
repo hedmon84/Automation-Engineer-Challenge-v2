@@ -9,7 +9,7 @@ import { onSubmit_Form } from "../support/page_objects/Submit_Form";
 import { onCheck_Price } from "../support/page_objects/Check_Price";
 import { onCheck_Date } from "../support/page_objects/Check_Date";
 
-describe("Testing  the Short-Term Parking cost should be $2.00 first hour", () => {
+describe("Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour", () => {
   it("Open Application", () => {
     cy.openMainPage();
   });
@@ -54,7 +54,7 @@ describe("Testing  the Short-Term Parking cost should be $2.00 first hour", () =
   });
 });
 
-describe("Testing  the Short-Term Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour", () => {
+describe("Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour", () => {
   it("Open Application", () => {
     cy.openMainPage();
   });
@@ -99,7 +99,7 @@ describe("Testing  the Short-Term Parking cost should be $2.00 first hour and  $
   });
 });
 
-describe("Testing  the Short-Term Parking cost should be $24.00 daily maximum", () => {
+describe("Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum", () => {
   it("Open Application", () => {
     cy.openMainPage();
   });

@@ -91,7 +91,7 @@ describe("Testing  the Economy Parking  cost should be $9.00 daily maximum", () 
   });
 
   it("Check Correct Price Test", () => {
-    onCheck_Price.ShouldBe("$ 10.00");
+    onCheck_Price.ShouldBe("$ 9.00");
   });
 
   it("Check Correct Date Test", () => {
@@ -99,7 +99,7 @@ describe("Testing  the Economy Parking  cost should be $9.00 daily maximum", () 
   });
 });
 
-describe("Testing  the Economy Parking  Parking cost should be $60.00 per week (7th day free)", () => {
+describe("Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free)", () => {
   it("Open Application", () => {
     cy.openMainPage();
   });
@@ -136,7 +136,7 @@ describe("Testing  the Economy Parking  Parking cost should be $60.00 per week (
   });
 
   it("Check Correct Price Test", () => {
-    onCheck_Price.ShouldBe("$ 60.00");
+    onCheck_Price.ShouldBe("$ 54.00");
   });
 
   it("Check Correct Date Test", () => {
