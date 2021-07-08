@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.0400" tests="33" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:27:39" tests="0" file="cypress/integration/Test_Long-Term_Surface_Parking.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour" timestamp="2021-07-08T16:27:39" tests="11" time="13.3910" failures="0">
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Open Application" time="1.6750" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Parking Lot Test" time="1.1850" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Entry Date Test" time="1.3550" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Starting Time Test" time="1.3040" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Radio_Button-Test" time="1.0790" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Leaving Date Test" time="1.3410" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Leaving Time Test" time="1.2740" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Leaving Time AM or PM Test" time="1.0730" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Format Submit Test" time="1.0610" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Check Correct Price Test" time="1.0190" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot) Parking cost should be $2.00 per hour Check Correct Date Test" time="1.0250" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum" timestamp="2021-07-08T16:27:54" tests="11" time="13.7220" failures="0">
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Open Application" time="1.8250" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Parking Lot Test" time="1.1570" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Entry Date Test" time="1.3430" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Starting Time Test" time="1.2930" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Radio_Button-Test" time="1.0210" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Leaving Date Test" time="1.3410" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Leaving Time Test" time="1.2880" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Leaving Time AM or PM Test" time="1.0760" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Format Submit Test" time="1.3340" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Check Correct Price Test" time="1.0230" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  cost should be $10.00 daily maximum Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free)" timestamp="2021-07-08T16:28:08" tests="11" time="11.9270" failures="0">
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Open Application" time="0.9110" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Parking Lot Test" time="1.1520" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Entry Date Test" time="1.3210" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Starting Time Test" time="1.2860" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Radio_Button-Test" time="1.0180" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Leaving Date Test" time="1.3390" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Leaving Time Test" time="1.2890" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Leaving Time AM or PM Test" time="1.0180" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Format Submit Test" time="0.5450" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Check Correct Price Test" time="1.0240" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Surface Parking (North Lot)  Parking cost should be $60.00 per week (7th day free) Check Correct Date Test" time="1.0240" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+</testsuites>

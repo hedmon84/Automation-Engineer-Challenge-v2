@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.1010" tests="22" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:30:19" tests="0" file="cypress/integration/Test_Valet_Parking.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing  the Valet Parking cost per day has to be 18$" timestamp="2021-07-08T16:30:19" tests="11" time="13.3650" failures="0">
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Open Application" time="1.6800" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Parking Lot Test" time="1.1710" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Entry Date Test" time="1.3510" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Starting Time Test" time="1.2910" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Radio_Button-Test" time="1.0950" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Leaving Date Test" time="1.3410" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Leaving Time Test" time="1.2800" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Leaving Time AM or PM Test" time="1.0760" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Format Submit Test" time="1.0380" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Check Correct Price Test" time="1.0220" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking cost per day has to be 18$ Check Correct Date Test" time="1.0200" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Valet Parking  costs has to be $12 for five hours or less" timestamp="2021-07-08T16:30:35" tests="11" time="13.7360" failures="0">
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Open Application" time="1.8220" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Parking Lot Test" time="1.1530" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Entry Date Test" time="1.3370" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Starting Time Test" time="1.2960" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Radio_Button-Test" time="1.0750" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Leaving Date Test" time="1.3370" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Leaving Time Test" time="1.2710" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Leaving Time AM or PM Test" time="1.0750" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Format Submit Test" time="1.3340" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Check Correct Price Test" time="1.0150" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Valet Parking  costs has to be $12 for five hours or less Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+</testsuites>

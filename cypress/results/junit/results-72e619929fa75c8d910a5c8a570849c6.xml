@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.6370" tests="33" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:26:50" tests="0" file="cypress/integration/Test_Economy_Lot_Parking.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing  the Economy Parking Parking cost should be $2.00 per hour" timestamp="2021-07-08T16:26:50" tests="11" time="13.4470" failures="0">
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Open Application" time="1.7370" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Parking Lot Test" time="1.1740" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Entry Date Test" time="1.3610" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Starting Time Test" time="1.2930" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Radio_Button-Test" time="1.0860" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Leaving Date Test" time="1.3420" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Leaving Time Test" time="1.2820" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Leaving Time AM or PM Test" time="1.0770" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Format Submit Test" time="1.0480" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Check Correct Price Test" time="1.0240" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking Parking cost should be $2.00 per hour Check Correct Date Test" time="1.0230" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Economy Parking  cost should be $9.00 daily maximum" timestamp="2021-07-08T16:27:06" tests="11" time="13.2920" failures="0">
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Open Application" time="1.4060" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Parking Lot Test" time="1.1580" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Entry Date Test" time="1.3410" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Starting Time Test" time="1.2870" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Radio_Button-Test" time="1.0200" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Leaving Date Test" time="1.3340" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Leaving Time Test" time="1.2940" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Leaving Time AM or PM Test" time="1.0740" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Format Submit Test" time="1.3370" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Check Correct Price Test" time="1.0200" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  cost should be $9.00 daily maximum Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free)" timestamp="2021-07-08T16:27:20" tests="11" time="11.8980" failures="0">
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Open Application" time="0.8750" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Parking Lot Test" time="1.1530" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Entry Date Test" time="1.3230" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Starting Time Test" time="1.2890" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Radio_Button-Test" time="1.0170" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Leaving Date Test" time="1.3350" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Leaving Time Test" time="1.2920" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Leaving Time AM or PM Test" time="1.0210" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Format Submit Test" time="0.5530" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Check Correct Price Test" time="1.0200" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Economy Parking  Parking cost should be $54.00 per week (7th day free) Check Correct Date Test" time="1.0200" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+</testsuites>

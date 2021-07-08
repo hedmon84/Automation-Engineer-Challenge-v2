@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.0650" tests="33" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:29:13" tests="0" file="cypress/integration/Test_Short-Term_Parking_Cost_Hourly.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour" timestamp="2021-07-08T16:29:13" tests="11" time="13.3750" failures="0">
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Open Application" time="1.6970" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Parking Lot Test" time="1.1890" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Entry Date Test" time="1.3440" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Starting Time Test" time="1.3060" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Radio_Button-Test" time="1.0880" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Leaving Date Test" time="1.3400" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Leaving Time Test" time="1.2740" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Leaving Time AM or PM Test" time="1.0750" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Format Submit Test" time="1.0150" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Check Correct Price Test" time="1.0230" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour Check Correct Date Test" time="1.0240" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour" timestamp="2021-07-08T16:29:29" tests="11" time="13.2610" failures="0">
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Open Application" time="1.3510" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Parking Lot Test" time="1.1590" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Entry Date Test" time="1.3340" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Starting Time Test" time="1.2910" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Radio_Button-Test" time="1.0750" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Leaving Date Test" time="1.3380" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Leaving Time Test" time="1.2700" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Leaving Time AM or PM Test" time="1.0760" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Format Submit Test" time="1.3290" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Check Correct Price Test" time="1.0180" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $2.00 first hour and  $1.00 each additional 1/2 hour Check Correct Date Test" time="1.0200" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum" timestamp="2021-07-08T16:29:42" tests="11" time="12.4290" failures="0">
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Open Application" time="1.3490" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Parking Lot Test" time="1.1540" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Entry Date Test" time="1.3350" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Starting Time Test" time="1.2890" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Radio_Button-Test" time="1.0170" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Leaving Date Test" time="1.3410" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Leaving Time Test" time="1.2850" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Leaving Time AM or PM Test" time="1.0750" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Format Submit Test" time="0.5410" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Check Correct Price Test" time="1.0220" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Short-Term (hourly) Parking cost should be $24.00 daily maximum Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+</testsuites>

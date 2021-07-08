@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.8910" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:30:01" tests="0" file="cypress/integration/Test_UI.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests is only to check if calendar , dropdown, radiobutton works" timestamp="2021-07-08T16:30:01" tests="10" time="11.8910" failures="0">
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Open Application" time="1.7090" classname="Open Application">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works  Choose a Parking Lot Dropdown Test" time="5.7630" classname=" Choose a Parking Lot Dropdown Test">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing   Starting date" time="0.3520" classname="Testing   Starting date">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing  Starting Time" time="0.2710" classname="Testing  Starting Time">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing  Radio Button Starting Date" time="2.0830" classname="Testing  Radio Button Starting Date">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing  Leaving Date" time="0.3280" classname="Testing  Leaving Date">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing  Leaving Time" time="0.2660" classname="Testing  Leaving Time">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Testing  Radio Button Leaving Date" time="1.0990" classname="Testing  Radio Button Leaving Date">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Checking Correct Parking Costs" time="0.0120" classname="Checking Correct Parking Costs">
+    </testcase>
+    <testcase name="Tests is only to check if calendar , dropdown, radiobutton works Checking Correct Date" time="0.0080" classname="Checking Correct Date">
+    </testcase>
+  </testsuite>
+</testsuites>

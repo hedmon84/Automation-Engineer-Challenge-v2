@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.0560" tests="33" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-08T16:28:27" tests="0" file="cypress/integration/Test_Lont-Term_Garage_Parking.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour" timestamp="2021-07-08T16:28:27" tests="11" time="13.3880" failures="0">
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Open Application" time="1.6820" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Parking Lot Test" time="1.1980" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Entry Date Test" time="1.3520" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Starting Time Test" time="1.3050" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Radio_Button-Test" time="1.0810" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Leaving Date Test" time="1.3370" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Leaving Time Test" time="1.2800" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Leaving Time AM or PM Test" time="1.0750" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Format Submit Test" time="1.0390" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Check Correct Price Test" time="1.0190" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $2.00 per hour Check Correct Date Test" time="1.0200" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum" timestamp="2021-07-08T16:28:42" tests="11" time="12.7910" failures="0">
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Open Application" time="1.3580" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Parking Lot Test" time="1.1570" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Entry Date Test" time="1.3360" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Starting Time Test" time="1.2940" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Radio_Button-Test" time="1.0220" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Leaving Date Test" time="1.3410" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Leaving Time Test" time="1.2880" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Leaving Time AM or PM Test" time="1.0730" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Format Submit Test" time="0.8820" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Check Correct Price Test" time="1.0190" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $12.00 daily maximum Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free)" timestamp="2021-07-08T16:28:55" tests="11" time="11.8770" failures="0">
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Open Application" time="0.8690" classname="Open Application">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Parking Lot Test" time="1.1530" classname="Parking Lot Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Entry Date Test" time="1.3210" classname="Entry Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Starting Time Test" time="1.2930" classname="Starting Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Radio_Button-Test" time="1.0210" classname="Radio_Button-Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Leaving Date Test" time="1.3300" classname="Leaving Date Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Leaving Time Test" time="1.2870" classname="Leaving Time Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Leaving Time AM or PM Test" time="1.0200" classname="Leaving Time AM or PM Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Format Submit Test" time="0.5430" classname="Format Submit Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Check Correct Price Test" time="1.0190" classname="Check Correct Price Test">
+    </testcase>
+    <testcase name="Testing  the Long-Term Garage Parking cost should be $72.00 per week (7th day free) Check Correct Date Test" time="1.0210" classname="Check Correct Date Test">
+    </testcase>
+  </testsuite>
+</testsuites>
