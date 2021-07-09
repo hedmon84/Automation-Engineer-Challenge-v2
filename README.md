@@ -28,14 +28,14 @@ the second test is object oriented using clean code , clean tests and more user 
 
 # Folders to check
 
-* Mochawesome-report = This folder has the automatic results you can open on html  if you run  npm run cypress:run.
-* Video= will save the video if you run  npm run cypress:run.
-* Screenshot= will create screenshot of an error occurred.
+* Mochawesome-report = This folder has the automatic results you can open on html report.
+* Video= will save the video snapshots.
+* Screenshot= will create screenshot if a error occurred.
 
  
 
 
 # Comments
-* Cypres is unable to build/deployment I try with  heroku but is not a clear info how to do it.
+* Cypress is unable to build/deployment I try with  heroku but is not a clear info how to do it.
 * Automated things used on the program prettier,eslint,githubautocommit,mocha,mochawesomereports.
-* Cypess use mocha and chai libraries soo I use chai to make assertions.
+* Cypress use mocha and chai libraries soo I use chai to make assertions.
